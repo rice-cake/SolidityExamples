@@ -41,7 +41,7 @@ contract Arithmetic {
 
 	function multiply(uint value_2) public returns(uint answer) {
 		 value_1 *= value_2;  	// not checking for overflow!
-		 return value_2;
+		 return value_1;
 	}
 
 	function divide(uint value_2) public returns(uint answer) {
